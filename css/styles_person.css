@@ -12,10 +12,10 @@
 	
 */
 
-body
+body, html
 {
- 	padding-top: 4%;
-	padding-left: 10px;
+	height: 100%;
+	margin: 0;
 	background: rgb(28, 25, 25);
 	font-family: 'Work Sans', sans-serif;
 }
@@ -27,15 +27,92 @@ h3
 }
 
 /* page styling */
-#focusquote
+.infobox
 {
-	text-align: center;
+	padding: 2% 2%;
+	background-color: rgba(28, 25, 25, 0.9);
 	color: rgb(211, 203, 189);
+	font-size: 1em;
 }
 
-#focusquote h3
+.infobox h3
 {
+	font-size: 1.3em;
 	color: rgb(69, 111, 116);
+	width: 30%;
+}
+
+#rowlinks
+{
+	margin-top: 2%;	
+}
+
+#rowstatistic
+{
+	margin-top: 5%;
+}
+
+#rowmaintext
+{
+	margin-top: 10%;
+}
+
+#preconception
+{
+	display: none;
+	position: absolute;
+	top: 60%;
+	left: 10%;
+}
+
+#experience1
+{
+	display: none;
+	position: absolute;
+	top: 60%;
+	left: 60%;
+}
+
+#experience2
+{
+	display: none;
+	position: absolute;
+	top: 60%;
+	left: 60%;
+}
+
+#experience3
+{
+	display: none;
+	position: absolute;
+	top: 60%;
+	left: 60%;
+}
+
+#statistic
+{
+	display: none;
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+
+#storynav
+{
+	display: none;
+	background-color: rgba(235, 89, 55, 0.8);
+	padding: 2%;
+	position: fixed;
+	top: 70%;
+	left: 80%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+
+#storynav a
+{
+	color: rgb(28, 25, 25);
+	font-size: 1.2em;
 }
 
 p.links
